@@ -1,0 +1,9 @@
+{
+  "name": "spec-buddy",
+  "description": "Plugin for working with specifications and technical documentation",
+  "version": "0.9.0",
+  "author": {
+    "name": "Haulmont"
+  },
+  "homepage": "https://github.com/Amplicode/spring-skills.git"
+}
