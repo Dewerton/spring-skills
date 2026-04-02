@@ -1,6 +1,6 @@
 {
-  "name": "spec-buddy",
-  "description": "Plugin for working with specifications and technical documentation",
+  "name": "amplicode-spring-skills",
+  "description": "Best skills for Spring Boot development powered by Amplicode Team",
   "version": "0.9.0",
   "author": {
     "name": "Haulmont"
