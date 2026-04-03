@@ -2,21 +2,16 @@
 name: java-debug
 description: >
     Safety rules, workflows, and tool reference for debugging applications via IntelliJ debugger:
-    setting breakpoints, launching debug sessions, stepping through code, evaluating expressions,
-    and inspecting runtime state.
-    TRIGGER when: the user wants to debug, investigate a bug, set breakpoints, inspect runtime
-    behavior, step through code, or understand why code behaves unexpectedly at runtime.
+    breakpoints, debug sessions, stepping, evaluating expressions, inspecting runtime state.
+    TRIGGER when: user wants to debug, investigate a bug, set breakpoints, inspect runtime behavior,
+    step through code, or understand why code behaves unexpectedly at runtime.
     Trigger phrases (EN): "debug", "breakpoint", "step through", "step into", "step over",
-    "why does this crash", "why is this null", "inspect at runtime", "launch in debug mode",
-    "what value does this have at runtime", "trace execution", "investigate a bug",
-    "run with debugger", "start debugging", "watch variable", "evaluate expression".
-    Trigger phrases (RU): "отладить", "отладка", "дебаг", "дебажить", "брейкпоинт",
-    "поставь точку останова", "почему падает", "почему не работает" (when runtime investigation
-    is needed), "пошагово пройти", "зайти в метод", "посмотреть значение переменной",
-    "запустить в режиме отладки", "что тут происходит в рантайме", "проверить в дебаге",
-    "почему null", "стектрейс", "посмотреть стек вызовов".
-    Use this skill even if the user doesn't explicitly say "debug" — if they want to understand
-    runtime behavior, trace execution, or investigate why something works incorrectly, this skill applies.
+    "why does this crash", "why is this null", "launch in debug mode",
+    "trace execution", "run with debugger", "evaluate expression".
+    Trigger phrases (RU): "отладить", "дебаг", "брейкпоинт", "почему падает",
+    "пошагово пройти", "зайти в метод", "посмотреть значение переменной",
+    "запустить в режиме отладки", "почему null", "стектрейс".
+    Also trigger when user wants to understand runtime behavior or investigate incorrect behavior.
 ---
 
 # Debugging with IntelliJ Debug MCP

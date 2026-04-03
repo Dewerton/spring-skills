@@ -4,60 +4,27 @@ Best skills for Spring Boot development powered by Amplicode Team.
 
 ## Installation
 
+```shell
+curl -sSL https://raw.githubusercontent.com/Amplicode/spring-skills/refs/heads/main/install.sh | bash
+```
+
 ### Prerequisites
 
 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI must be installed and running.
 
-### Step 1: Add the marketplace
+### Manual installation
 
-Run the following command inside Claude Code:
-
-```
-/plugin marketplace add https://github.com/Amplicode/spring-skills.git
-```
-
-This registers the catalog so you can browse available plugins. No plugins are installed yet.
-
-### Step 2: Install the plugin
-
-```
-/plugin install spring-tools@amplicode-spring-skills
+```shell
+claude plugin marketplace add https://github.com/Amplicode/spring-skills.git
+claude plugin install spring-tools@spring-tools
+claude plugin update spring-tools@spring-tools
 ```
 
-### Step 3: Activate
+## Skills
 
-After installation, reload plugins to activate:
-
-```
-/reload-plugins
-```
-
-## Usage
-
-Once installed, the plugin skills become available automatically during your Claude Code sessions for Spring Boot projects.
-
-## Managing the plugin
-
-Disable the plugin without uninstalling:
-
-```
-/plugin disable spring-tools@amplicode-spring-skills
-```
-
-Re-enable:
-
-```
-/plugin enable spring-tools@amplicode-spring-skills
-```
-
-Uninstall:
-
-```
-/plugin uninstall spring-tools@amplicode-spring-skills
-```
-
-Update marketplace to fetch the latest version:
-
-```
-/plugin marketplace update amplicode-spring-skills
-```
+| Skill | Description | Status |
+|-------|-------------|--------|
+| `spring-explore` | Automatically explores a Spring Boot application and builds project context: tech stack, module structure, domain entities, REST endpoints | Available |
+| `spring-data-jpa` | Rules and guidelines for working with Spring Data JPA — creating/modifying entities, repositories, projections, and transactional code | Available |
+| `connekt-script-writer` | Writing `.connekt.kts` scripts — Kotlin-based HTTP automation and testing using the Connekt DSL | Available |
+| `java-debug` | Debugging applications via IntelliJ debugger: breakpoints, debug sessions, stepping, evaluating expressions, inspecting runtime state | In development |

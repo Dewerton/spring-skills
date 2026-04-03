@@ -367,7 +367,7 @@ GET("$host/api/pets") then {
 }
 ```
 
-**AssertJ** (requires import):
+**AssertJ** (requires import, deprecated, do not use in new scripts):
 ```kotlin
 import org.assertj.core.api.Assertions.assertThat
 
