@@ -5,10 +5,10 @@
     },
     "plugins": [
       {
-        "name": "spring-tools",
+        "name": "amplicode-spring-skills",
         "source": {
           "source": "local",
-          "path": "./"
+          "path": "./.codex-plugin/.."
         },
         "policy": {
           "installation": "AVAILABLE",
